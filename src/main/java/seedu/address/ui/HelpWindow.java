@@ -44,7 +44,7 @@ public class HelpWindow extends UiPart<Stage> {
     private static final String HELP_COMMAND = "help [COMMANDS]\n";
 
     private static final String[] COMMANDS = {ADD_COMMAND, LIST_COMMAND, EDIT_COMMAND, FIND_COMMAND,
-        DELETE_COMMAND, CLEAR_COMMAND, EXIT_COMMAND, HELP_COMMAND};
+        DELETE_COMMAND, GET_COMMAND, CLEAR_COMMAND, EXIT_COMMAND, HELP_COMMAND};
 
 
     @FXML
