@@ -150,9 +150,22 @@ public class ParserUtil {
      * @throws ParseException if the given {@code income} is invalid.
      */
     public static Income parseIncome(String income) throws ParseException {
+        double parsedIncome;
         requireNonNull(income);
+
         String trimmedIncome = income.trim();
-        return new Income(trimmedIncome);
+
+        try {
+            parsedIncome = Double.parseDouble(trimmedIncome);
+        } catch (NumberFormatException e) {
+            throw new ParseException(Income.MESSAGE_CONSTRAINTS);
+        }
+
+        if (!Income.isValidIncome(parsedIncome)) {
+            throw new ParseException(Income.MESSAGE_CONSTRAINTS);
+        }
+
+        return new Income(parsedIncome);
     }
 
     /**
