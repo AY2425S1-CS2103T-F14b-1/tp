@@ -39,6 +39,7 @@ public class FindCommand extends Command {
     private final List<String> names;
     private final List<String> addresses;
     private final List<String> priorities;
+    private Predicate<Person> finalPredicate;
 
     /**
      * Creates a FindCommand to filter the address book by the given lists of
@@ -55,7 +56,7 @@ public class FindCommand extends Command {
     public CommandResult execute(Model model) {
         requireNonNull(model);
 
-        Predicate<Person> finalPredicate = person -> true; // default starting predicate
+        finalPredicate = person -> true; // default starting predicate
 
         if (!this.names.isEmpty()) {
             finalPredicate = finalPredicate.and(new NameContainsKeywordsPredicate(names));
@@ -73,6 +74,12 @@ public class FindCommand extends Command {
         return new CommandResult(
                 String.format(Messages.MESSAGE_PERSONS_LISTED_OVERVIEW, model.getFilteredPersonList().size()));
     }
+
+    @Override
+    public String getCommandWord() {
+        return COMMAND_WORD;
+    }
+
 
     @Override
     public boolean equals(Object other) {
