@@ -118,6 +118,7 @@
         "deleting-people-delete": "Deleting people : delete",
         "getting-the-parameters-of-these-people-get": "Getting the parameters of these people: get",
         "clearing-all-entries-clear": "Clearing all entries : clear",
+        "undo-the-previous-command-undo": "Undo the previous command: undo",
         "displaying-overall-statistics-statistics": "Displaying overall statistics : statistics",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
