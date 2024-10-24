@@ -120,6 +120,7 @@
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "undo-the-previous-command-undo": "Undo the previous command: undo",
         "displaying-overall-statistics-statistics": "Displaying overall statistics : statistics",
+        "displaying-eligible-schemes-scheme": "Displaying eligible schemes : scheme",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
         "editing-the-data-file": "Editing the data file",
