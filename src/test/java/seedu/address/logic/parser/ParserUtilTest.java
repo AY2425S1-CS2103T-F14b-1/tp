@@ -344,8 +344,16 @@ public class ParserUtilTest {
     @Test
     public void parseIncome_invalidValue_throwsParseException() {
         assertThrows(ParseException.class, () -> ParserUtil.parseIncome(INVALID_INCOME));
+
+        // scientific notation
         assertThrows(ParseException.class, () -> ParserUtil.parseIncome("1e9"));
         assertThrows(ParseException.class, () -> ParserUtil.parseIncome("1E9"));
+
+        // missing integer part
+        assertThrows(ParseException.class, () -> ParserUtil.parseIncome(".9"));
+
+        // missing decimal part after the decimal point
+        assertThrows(ParseException.class, () -> ParserUtil.parseIncome("1."));
     }
 
     @Test
