@@ -140,6 +140,12 @@ public class ParserUtil {
 
         String trimmedIncome = income.trim();
 
+        String decimalFormatPattern = "^-?\\d+(\\.\\d+)?$";
+
+        if (!trimmedIncome.matches(decimalFormatPattern)) {
+            throw new ParseException(Income.MESSAGE_CONSTRAINTS);
+        }
+
         try {
             parsedIncome = Double.parseDouble(trimmedIncome);
         } catch (NumberFormatException e) {

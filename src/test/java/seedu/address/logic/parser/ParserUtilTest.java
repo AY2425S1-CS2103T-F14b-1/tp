@@ -344,6 +344,8 @@ public class ParserUtilTest {
     @Test
     public void parseIncome_invalidValue_throwsParseException() {
         assertThrows(ParseException.class, () -> ParserUtil.parseIncome(INVALID_INCOME));
+        assertThrows(ParseException.class, () -> ParserUtil.parseIncome("1e9"));
+        assertThrows(ParseException.class, () -> ParserUtil.parseIncome("1E9"));
     }
 
     @Test
