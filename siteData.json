@@ -115,6 +115,7 @@
         "listing-all-persons-list": "Listing all persons: list",
         "editing-a-person-edit": "Editing a person: edit",
         "finding-persons-find": "Finding persons: find",
+        "sorting-persons-sort": "Sorting persons: sort",
         "deleting-people-delete": "Deleting people: delete",
         "getting-the-parameters-of-these-people-get": "Getting the parameters of these people: get",
         "clearing-all-entries-clear": "Clearing all entries: clear",
