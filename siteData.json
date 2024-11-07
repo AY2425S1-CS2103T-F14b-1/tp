@@ -124,6 +124,8 @@
         "adding-a-scheme-to-a-person-addscheme": "Adding a scheme to a person : addscheme",
         "viewing-schemes-attached-to-a-person-viewscheme": "Viewing schemes attached to a person : viewscheme",
         "delete-a-scheme-from-a-person-deletescheme": "Delete a scheme from a person : deletescheme",
+        "archiving-person-archive": "Archiving person : archive",
+        "unarchiving-person-unarchive": "Unarchiving person : unarchive",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
         "editing-the-data-file": "Editing the data file",
