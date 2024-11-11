@@ -69,7 +69,18 @@
         "deleting-an-appointment": "Deleting an appointment",
         "archiving-a-person": "Archiving a person",
         "unarchiving-a-person": "Unarchiving a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements",
+        "1-adding-appointments-that-span-multiple-days": "1. Adding appointments that span multiple days:",
+        "2-imposing-constraints-on-archived-people": "2. Imposing constraints on archived people:",
+        "3-enhancing-duplicate-detection": "3. Enhancing duplicate detection:",
+        "4-enhancing-validation-checks": "4. Enhancing validation checks:",
+        "5-viewing-the-details-of-the-different-schemes": "5. Viewing the details of the different schemes:",
+        "6-adding-images-to-a-person": "6. Adding images to a person:",
+        "7-make-the-command-result-box-in-ui-bigger": "7. Make the command result box in UI bigger:",
+        "8-imposing-constraints-on-extreme-inputs": "8. Imposing constraints on extreme inputs:",
+        "9-representing-entire-families": "9. Representing entire families:",
+        "10-modifying-available-schemes": "10. Modifying available schemes:"
       },
       "headingKeywords": {}
     },
