@@ -119,7 +119,7 @@
         "finding-persons-find": "Finding persons: find",
         "sorting-persons-sort": "Sorting persons: sort",
         "deleting-people-delete": "Deleting people: delete",
-        "getting-the-parameters-of-these-people-get": "Getting the parameters of these people: get",
+        "getting-parameters-of-these-people-get": "Getting parameters of these people: get",
         "clearing-all-entries-clear": "Clearing all entries: clear",
         "adding-an-appointment-addappt": "Adding an appointment: addappt",
         "listing-all-appointments-listappt": "Listing all appointments: listappt",
