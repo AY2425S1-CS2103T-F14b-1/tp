@@ -63,6 +63,10 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
+        "adding-a-scheme-to-a-person": "Adding a scheme to a person",
+        "deleting-schemes-from-a-person": "Deleting schemes from a person",
+        "adding-an-appointment-to-a-person": "Adding an appointment to a person",
+        "deleting-an-appointment": "Deleting an appointment",
         "archiving-a-person": "Archiving a person",
         "unarchiving-a-person": "Unarchiving a person",
         "saving-data": "Saving data"
